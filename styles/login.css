@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #1a1a1a;     /* subtle dark background */
@@ -57,4 +58,9 @@ button {
 
 button:hover {
     background: #0069e6;
+}
+
+
+a{
+    margin-top: 25px;
 }

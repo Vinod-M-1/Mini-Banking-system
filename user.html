@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/user.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>This is user page</h2>
+    <nav>
+        USER DASH BOARD
+    </nav>
+    <div class="main">
+        <div class="about">
+        <p id="greeting"> Hello, User Name!</p>
+        <p>Welcome to your account dashboard. Choose an option below to manage your account.</p>
+        </div>
+        <div class="actions"> <a href="/user/balan.html" class="btn btn-dark">CHECK BALANCE</a> </div>
+        <div class="actions"> <a href="/user/with.html" class="btn btn-dark">WITHDRAW</a> </div>
+        <div class="actions"> <a href="/user/depo.html" class="btn btn-dark">DEPOSIT</a> </div>
+        <div class="actions"> <a href="/user/trans.html" class="btn btn-dark">TRANSFER</a> </div>
+        <div class="actions"> <a href="login.html" class="btn btn-dark">LOGOUT</a> </div>
+    </div>
+    <script src="javascript/user.js"></script>
 </body>
 </html>

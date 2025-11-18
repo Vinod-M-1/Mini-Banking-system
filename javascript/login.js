@@ -7,6 +7,7 @@ buttonElement.addEventListener('click', function() {
     for(it of accounts){
         if(it.accNumber == acc_n){
             if(it.pin == pin){
+                localStorage.setItem("activeuser-name",it.name)
                 window.location.href = "user.html"
                 return
             }else{
