@@ -8,6 +8,8 @@ buttonElement.addEventListener('click', function() {
         if(it.accNumber == acc_n){
             if(it.pin == pin){
                 localStorage.setItem("activeuser-name",it.name)
+                localStorage.setItem("activeuser-accnum", it.accNumber)
+                localStorage.setItem("activeuser-balance", it.balance)
                 window.location.href = "user.html"
                 return
             }else{
